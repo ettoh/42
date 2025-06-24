@@ -1334,7 +1334,7 @@ void MomBiasFSW(struct SCType *S)
       }
 }
 /**********************************************************************/
-/* SC_Aura is a three-body three-axis stabilized S/C                */
+/* SC_Aura is a two-body three-axis stabilized S/C                */
 void ThreeAxisFSW(struct SCType *S)
 {
       double wln[3],CRN[3][3];
