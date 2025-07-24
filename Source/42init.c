@@ -4551,8 +4551,8 @@ void InitSim(int argc, char **argv)
       #else
          sprintf(InOutPath,"./InOut/");
          sprintf(ModelPath,"./Model/");
-         if (argc > 1) sprintf(InOutPath,"./%s/",argv[1]);
-         if (argc > 2) sprintf(ModelPath,"./%s/",argv[2]);
+         if (argc > 1) sprintf(InOutPath,"%s/",argv[1]);
+         if (argc > 2) sprintf(ModelPath,"%s/",argv[2]);
       #endif
 
 /* .. Read from file Inp_Sim.txt */
